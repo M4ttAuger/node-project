@@ -1,20 +1,10 @@
-console.log("Hello, World!");
-console.log("This is a simple JavaScript program.");
+let array: number[] = [1, 2, 3, 4, 5];
 
-let myVar: number = 3;
-myVar += 10;
-
-console.log("myVar:", myVar);
-
-interface Myinterface {
-  myNumber: number;
-  myString: string;
+// Calcolo della media
+let somma = 0;
+for (let i = 0; i < array.length; i++) {
+  somma += array[i];
 }
-
-let myInterface = {
-  myNumber: 10,
-  myString: "Hello, TypeScript!",
-};
-
-console.log("myNumber:", myInterface.myNumber);
-console.log("myString:", myInterface.myString);
+let media = somma / array.length;
+console.log(`La media è: ${media}`);
+console.log(`la somma è: ${somma}`);
