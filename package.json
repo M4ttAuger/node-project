@@ -5,7 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Matt",
+  "author": "M4ttAuger",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/M4ttAuger/project.git"
+  },
   "description": ""
 }
